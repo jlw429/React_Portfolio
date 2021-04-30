@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
 
-export default function ButtonAppBar() {
+export default function Navbar() {
   return (
     <AppBar className='app-bar' position='sticky'>
-      <Typography className='navh1'>Jason L. West</Typography>
+      <Toolbar className='tool_bar'>
+        <h2 className='nav-jason'>Jason L. West</h2>
+        <div className='tool_link'></div>
+      </Toolbar>
     </AppBar>
   );
 }
