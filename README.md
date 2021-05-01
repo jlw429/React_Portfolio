@@ -44,5 +44,5 @@
 
 ### Main Page:
 
-![Main](src/images/screenshot/top.png 'Main')
-![Main](src/images/screenshot/bottom.png 'Bottom')
+![Main](portfolio/src/images/screenshot/top.png 'Main')
+![Main](portfolio/src/images/screenshot/bottom.png 'Bottom')
