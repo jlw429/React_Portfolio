@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -49,30 +50,66 @@ button {
   display: flex;
 }
 
-.badge-align {
-  max-width: 10%;
-  max-height: 10%;
-  padding: 15px;
-}
-
 .badges {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
   margin: 50px;
-}
-
-.badges_main {
-  margin: 25px;
 }
 
 .badges_margin {
   margin-top: 65px;
   margin-bottom: 25px;
+  /* margin-left: 75px; */
+}
+
+.badge-align {
+  max-width: 50px;
+  max-height: 50px;
+  padding: 15px;
+  align-content: flex-end;
 }
 
 .portfolio-picture {
-  max-width: 200px;
-  border: solid black;
+  /* max-width: 350px; */
+  /* height: auto; */
+  border: solid black 1px;
+  /* margin-left: 15px; */
+}
+
+.port-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paper_grid_heading {
+  margin: 20px !important;
+  padding: 16px;
+  background-color: transparent;
+  color: white;
+}
+
+.paper_grid {
+  margin: 20px !important;
+  padding: 16px;
+  background-color: white;
+  color: black;
+}
+
+.portfolio-title-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paper_link {
+  display: flex;
+  flex-direction: row;
+}
+
+.paper_paragraph {
+  /* flex-grow: 2; */
+  align-self: stretch;
 }
 
 .portfolio-link {
@@ -90,10 +127,6 @@ button {
 .portfolio-break {
   padding: 25px;
   margin-top: 10px;
-}
-
-.margin {
-  margin-top: 20px;
 }
 
 .margin-footer {
