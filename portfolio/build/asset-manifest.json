@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02cc2d56.chunk.css",
+    "main.js": "/static/js/main.6fbe001a.chunk.js",
+    "main.js.map": "/static/js/main.6fbe001a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.37419a44.js",
+    "runtime-main.js.map": "/static/js/runtime-main.37419a44.js.map",
+    "static/js/2.afa62915.chunk.js": "/static/js/2.afa62915.chunk.js",
+    "static/js/2.afa62915.chunk.js.map": "/static/js/2.afa62915.chunk.js.map",
+    "static/js/3.4739d648.chunk.js": "/static/js/3.4739d648.chunk.js",
+    "static/js/3.4739d648.chunk.js.map": "/static/js/3.4739d648.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.02cc2d56.chunk.css.map": "/static/css/main.02cc2d56.chunk.css.map",
+    "static/js/2.afa62915.chunk.js.LICENSE.txt": "/static/js/2.afa62915.chunk.js.LICENSE.txt",
+    "static/media/blog.44415846.png": "/static/media/blog.44415846.png",
+    "static/media/css_badge.602d5b36.png": "/static/media/css_badge.602d5b36.png",
+    "static/media/emp_dir.49b6690a.png": "/static/media/emp_dir.49b6690a.png",
+    "static/media/gradebook.277baf34.png": "/static/media/gradebook.277baf34.png",
+    "static/media/html_badge.a577af37.png": "/static/media/html_badge.a577af37.png",
+    "static/media/jason_picture.214176ca.jpg": "/static/media/jason_picture.214176ca.jpg",
+    "static/media/js-badge.4d27cc92.png": "/static/media/js-badge.4d27cc92.png",
+    "static/media/mongo_badge.e5b6698c.png": "/static/media/mongo_badge.e5b6698c.png",
+    "static/media/music.32ed6254.png": "/static/media/music.32ed6254.png",
+    "static/media/mysql_badge.c51be954.jpg": "/static/media/mysql_badge.c51be954.jpg",
+    "static/media/node_badge.d2c1ab99.png": "/static/media/node_badge.d2c1ab99.png",
+    "static/media/ramble_space.5eb4b3aa.png": "/static/media/ramble_space.5eb4b3aa.png",
+    "static/media/reactjs_badge.2b47a98f.png": "/static/media/reactjs_badge.2b47a98f.png",
+    "static/media/resume_west_jason.f487f975.pdf": "/static/media/resume_west_jason.f487f975.pdf",
+    "static/media/weather.9163f72c.png": "/static/media/weather.9163f72c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37419a44.js",
+    "static/js/2.afa62915.chunk.js",
+    "static/css/main.02cc2d56.chunk.css",
+    "static/js/main.6fbe001a.chunk.js"
+  ]
+}
