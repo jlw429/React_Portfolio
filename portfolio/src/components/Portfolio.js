@@ -14,7 +14,7 @@ import WebIcon from '@material-ui/icons/Web';
 //Images
 import RambleImg from '../images/portfolio/ramble_space.png';
 import Blog from '../images/portfolio/blog.png';
-import GradeBook from '../images/portfolio/gradebook.png';
+import Tetris from '../images/portfolio/tetris.png';
 import EmpDir from '../images/portfolio/emp_dir.png';
 import ThatsMyJam from '../images/portfolio/music.png';
 import Weather from '../images/portfolio/weather.png';
@@ -24,55 +24,14 @@ const portfolioItemsArray = [
     id: 1,
     image: RambleImg,
     title: 'RambleSpace',
-    githubLink: 'https://github.com/jlw429/RambleSpace',
-    webLink: '',
+    githubLink: 'https://github.com/jlw429/RambleSpace_jlw429',
+    webLink: 'https://ramblespace.jasonlwest.com/',
     summary: `Fully functioning front and back end (including authentication)
               social media website resembling Twitter. The app has the ability to
               post a "ramble" (like posting a tweet) by clicking the top + icon.
-              It then will open a modal for you to "ramble on". , like and unlike
-              rambles, change user details, update user pictures. used: React,
+              It then will open a modal for you to "ramble on". The app also has the ability to  like and unlike
+              rambles, change user details, update user pictures. Comments open up in a modal for the user to comment on or like as they wish. Technologies used: React,
               Redux, JavaScript, Firebase, Node, Express, MaterialUI.`,
-  },
-  {
-    id: 2,
-    image: Blog,
-    title: 'Blog',
-    githubLink: 'https://github.com/jlw429/JasonsBlog',
-    webLink: '',
-    summary: `A blog built with React, node.js, express and MySql. Simple blog
-              with the ability to follow the crud operators of create, read, and
-              delete. Able to view all blogs from homepage.`,
-  },
-  {
-    id: 3,
-    image: GradeBook,
-    title: 'GradeBook',
-    githubLink: 'https://github.com/jlw429/Project2',
-    webLink: 'https://msu-project-two.herokuapp.com/',
-    summary: `Full-stack web project as a way for the administrators in a school
-              to give up-to-date attendance records from all your teachers in
-              real-time. Full authentication through passport.js. Teachers and
-              student support staff can overview daily attendance records as
-              well as individual student profiles. Technologies used:
-              Javascript, HTML, CSS, node, express, twilio send grid API,
-              handlebars.`,
-  },
-];
-
-const frontEndProjectsArray = [
-  {
-    id: 1,
-    image: EmpDir,
-    title: 'Employee Directory',
-    githubLink: 'https://github.com/jlw429/EmployeeDirectoryPro19',
-    webLink: 'https://jlw429.github.io/EmployeeDirectoryPro19/',
-    summary: `AS the owner of XYZ corporation, I need a way to easily find
-              non-sensitive information from my employees. This shows the
-              employees picture, name, email, user-ID, city, state and country
-              (since my employees reside in CA as well). It also lets me sort by
-              first name and last name AS WELL AS search by name (either first
-              or last). Technologies used React, Font_Awesome, Axios, BootStrap,
-              RandomUserAPI.`,
   },
   {
     id: 2,
@@ -90,10 +49,43 @@ const frontEndProjectsArray = [
   },
   {
     id: 3,
+    image: EmpDir,
+    title: 'Employee Directory',
+    githubLink: 'https://github.com/jlw429/EmployeeDirectoryPro19',
+    webLink: 'https://jlw429.github.io/EmployeeDirectoryPro19/',
+    summary: `Front end react project using the randomuserAPI to fetch data, tables to manipulate the data and have the ability to sort by last name/first name as well as search the table to find an employees name.    
+              The table shows non-sensitive information from my employees. This table shows the
+              employees picture, name, email, user-ID, city, state and country
+              (since my employees reside in CA as well). It also lets me sort by
+              first name and last name AS WELL AS search by name (either first
+              or last). Technologies used React, Font_Awesome, Axios, BootStrap,
+              RandomUserAPI.`,
+  },
+  {
+    id: 4,
+    image: Tetris,
+    title: 'Tetris',
+    githubLink: 'https://github.com/jlw429/Tetris',
+    webLink: 'https://jlw429.github.io/Tetris/',
+    summary: `Tetris game built with React and specifically React Hooks. Traditional Tetris game which has you able to rotate the shapes using the up arrow on your keyboard. You have the opportunity to hold the down arrow to move the piece faster, as well as the left and right arrows to place where you need it.`,
+  },
+  {
+    id: 5,
+    image: Blog,
+    title: 'Blog',
+    githubLink: 'https://github.com/jlw429/JasonsBlog',
+    webLink: 'https://github.com/jlw429/JasonsBlog',
+    summary: `A blog built with React, node.js, express and MySql. Simple blog
+              with the ability to follow the crud operators of create, read, and
+              delete. Able to view all blogs from homepage. Utilizes JawsDB to have the blog served on the web. `,
+  },
+
+  {
+    id: 6,
     image: Weather,
     title: 'Weather Dashboard',
     githubLink: 'https://github.com/jlw429/HW6Weather',
-    webLink: 'https://jlw429.github.io/HW6Weather/',
+    webLink: 'https://jlw429.github.io/Weather-Dashboard/',
     summary: `App was developed for a quick way to type in a city, get the city,
               current conditions and five day forecast. Utilizing API from
               openweathermap as well as Jquery, Javascript, Bootstrap, CSS, and
@@ -168,21 +160,9 @@ function Portfolio() {
       <Typography align='center' variant='h4'>
         Portfolio
       </Typography>
-      <div className='portfolio-break'>
-        <Typography className='margin_fs' align='center' variant='h6'>
-          Full Stack Projects
-        </Typography>
-      </div>
+      <div className='portfolio-break'></div>
 
       <PortfolioList portfolioItemsProp={portfolioItemsArray} />
-
-      <div className='portfolio-break'>
-        <Typography align='center' variant='h6'>
-          Front End Projects
-        </Typography>
-      </div>
-
-      <PortfolioList portfolioItemsProp={frontEndProjectsArray} />
 
       <div className='margin-footer'></div>
     </div>
