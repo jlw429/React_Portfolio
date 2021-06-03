@@ -1,9 +1,8 @@
 import React, { Suspense } from 'react';
-import Img from '../images/jason_picture.jpg';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Badges from '../components/Badges';
-import Resume from '../assets/resume_west_jason.pdf';
+import Resume from '../assets/portfolio_resume_west.pdf';
 import Tooltip from '@material-ui/core/Tooltip';
 
 //Icons
