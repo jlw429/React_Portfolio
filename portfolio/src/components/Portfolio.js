@@ -51,8 +51,8 @@ const portfolioItemsArray = [
     id: 3,
     image: EmpDir,
     title: 'Employee Directory',
-    githubLink: 'https://github.com/jlw429/EmployeeDirectoryPro19',
-    webLink: 'https://jlw429.github.io/EmployeeDirectoryPro19/',
+    githubLink: 'https://github.com/jlw429/EmployeeDirectory/',
+    webLink: 'https://jlw429.github.io/EmployeeDirectory/',
     summary: `Front end react project using the randomuserAPI to fetch data, tables to manipulate the data and have the ability to sort by last name/first name as well as search the table to find an employees name.    
               The table shows non-sensitive information from my employees. This table shows the
               employees picture, name, email, user-ID, city, state and country
